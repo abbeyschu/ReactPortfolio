@@ -1,10 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --ColorDarkBlue: #28363D;
+  --ColorTeal: #2F575D;
+  --ColorGreen: #658B6F;
+  --ColorLightBlue: #6D9197;
+  --ColorTan: #dee1dd;
 }
 
 code {
