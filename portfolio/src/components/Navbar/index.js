@@ -6,9 +6,7 @@ import "./style.css";
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <Link className="navbar-brand" to="/">
-        Abbey Schueller
-      </Link>
+      <h1 className="navbar-brand">Abbey Schueller</h1>
       <div>
         <ul className="navbar-nav">
           <li className="nav-item">

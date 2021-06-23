@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat&display=swap');
 
-body {
-  margin: 0;
-  font-family: 'Montserrat', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 :root {
   --ColorDarkBlue: #28363D;
   --ColorTeal: #2F575D;
@@ -15,7 +8,57 @@ body {
   --ColorTan: #dee1dd;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--ColorDarkBlue);
+  color: var(--ColorTan);
+}
+
+.navbar {
+  padding: 20px;
+  background-color: var(--ColorTeal);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-family: 'Monoton', cursive;
+  font-weight: normal;
+  font-size: 28pt;
+}
+
+.navbar-nav {
+  display: flex;
+  list-style: none;
+  margin-right: 25px;
+}
+
+.navbar-item {
+  font-size: 14pt;
+  text-decoration: underline;
+  display: inline-block;
+  margin-left: 25px;
+}
+
+a:link {
+  color: var(--ColorTan);
+}
+
+/* a link the user has visited */
+a:visited {
+  color: var(--ColorDarkBlue);
+}
+
+/* a link when the user hovers over it */
+a:hover {
+  color: #cdb3d4;
+}
+
+/* a link the moment it is clicked */
+a:active {
+  color: var(--ColorLightBlue);
 }
