@@ -7,7 +7,7 @@ function Projects() {
     <div>
        {myinfo.portfolio.map((item)=>{
            return(
-            <section>
+            <section className="projectSection">
                <h3>{item.title}</h3>
                <div>{item.description}</div>
                <div>{item.githubLink}</div>
