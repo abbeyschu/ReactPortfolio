@@ -16,6 +16,11 @@ body {
   background-color: var(--ColorDarkBlue);
   color: var(--ColorTan);
 }
+H2 {
+  font-family: 'Monoton', cursive;
+  font-size: 24pt;
+  font-weight: normal;
+}
 
 .navbar {
   padding: 20px;
@@ -61,6 +66,10 @@ a:hover {
 /* a link the moment it is clicked */
 a:active {
   color: var(--ColorLightBlue);
+}
+
+.projectSection a:visited {
+  color: var(--ColorGreen);
 }
 
 img {

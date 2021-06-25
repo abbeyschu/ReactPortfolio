@@ -1,0 +1,14 @@
+:root {
+    --ColorDarkBlue: #28363D;
+    --ColorTeal: #2F575D;
+    --ColorGreen: #658B6F;
+    --ColorLightBlue: #6D9197;
+    --ColorTan: #dee1dd;
+}
+
+.footer {
+    background-color: var(--ColorGreen);
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}

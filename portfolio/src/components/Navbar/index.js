@@ -13,10 +13,10 @@ function Navbar() {
             <Link to="/" className={window.location.pathname === "/" || window.location.pathname === "/about" ? "nav-link active" : "nav-link"}>About</Link>
           </li>
           <li className="nav-item">
-            <Link to="/projects" className={window.location.pathname === "/projects" ? "nav-link active" : "nav-link"}>Projects</Link>
+            <Link to="/education" className={window.location.pathname === "/education" ? "nav-link active" : "nav-link"}>Education</Link>
           </li>
           <li className="nav-item">
-            <Link to="/education" className={window.location.pathname === "/education" ? "nav-link active" : "nav-link"}>Education</Link>
+            <Link to="/projects" className={window.location.pathname === "/projects" ? "nav-link active" : "nav-link"}>Work</Link>
           </li>
         </ul>
       </div>

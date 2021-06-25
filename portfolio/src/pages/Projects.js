@@ -5,13 +5,17 @@ import myinfo from "../myinfo"
 function Projects() {
   return (
     <div>
+    <h2>Work</h2>
        {myinfo.portfolio.map((item)=>{
            return(
-            <section className="projectSection">
-               <h3>{item.title}</h3>
-               <div>{item.description}</div>
-               <div>{item.githubLink}</div>
-               <div>{item.deployed}</div>
+            <section key={item.id} className="projectSection">
+               <h3 key={item.title}>{item.title}</h3>
+               <div>
+                <img key={item.alt} src={item.image} alt=""/>
+              </div>
+               <div key={item.description}>{item.description}</div>
+               <a key={item.githubLink} href={item.githubLink}>Github Repository</a>
+               <a key={item.deployed} href={item.deployed}>Deployed Link</a>
             </section>
            )
        })}
