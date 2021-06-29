@@ -1,14 +1,14 @@
-.navbar{
+.menu{
   display: flex;
 }
 
-.navbar-nav{
+.menu-options{
   display: flex;
   list-style: none;
   margin-right: 25px;
 }
 
-.nav-item{
+.menu-item{
   font-size: 14pt;
   text-decoration: underline;
   display: inline-block;
