@@ -5,21 +5,21 @@ function Education() {
   return (
     <div>
     <section className="education">
-      <h2 className="school">Education</h2>
+      <h2>Education</h2>
       <div className="school">
-      <p>University of Wisconsin - Madison</p>
+      <p className="schoolName">University of Wisconsin - Madison</p>
       <p>Bachelors of Science, Food Science</p>
       <p>2017</p>
       </div>
       <div className="school">
-      <p>University of Washington</p>
+      <p className="schoolName">University of Washington</p>
       <p>Coding Bootcamp</p>
       <p>2021</p>
       </div>
     </section>
 
     <section className="professional">
-      <h2 className="workInfo">Professional Experience</h2>
+      <h2>Professional Experience</h2>
       <div className="workInfo">
         <p className="company">Franklin Energy Services</p>
         <p className="job">Software Quality Analyst (2021-present)</p>
