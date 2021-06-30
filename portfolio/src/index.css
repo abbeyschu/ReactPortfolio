@@ -99,6 +99,10 @@ a:active {
   margin: auto;
 } */
 
+.about{
+  margin: 25px;
+}
+
 .education{
   margin: 25px;
   display: flex;
