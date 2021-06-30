@@ -9,13 +9,13 @@ function Projects() {
        {myinfo.portfolio.map((item)=>{
            return(
             <section key={item.id} className="projectSection">
-               <h3 key={item.title}>{item.title}</h3>
-               <div>
-                <img key={item.alt} src={item.image} alt=""/>
-              </div>
-               <div key={item.description}>{item.description}</div>
-               <a key={item.githubLink} href={item.githubLink}>Github Repository</a>
-               <a key={item.deployed} href={item.deployed}>Deployed Link</a>
+                <img key={item.alt} src={item.image} alt="" className="projectPic"/>
+                <div className="projectInfo">
+                    <h3 key={item.title}>{item.title}</h3>
+                    <div key={item.description}>{item.description}</div>
+                    <a key={item.githubLink} href={item.githubLink}>Github Repository</a>
+                    <a key={item.deployed} href={item.deployed}>Deployed Link</a>
+                </div>
             </section>
            )
        })}
