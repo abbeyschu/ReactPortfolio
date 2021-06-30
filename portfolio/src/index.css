@@ -81,7 +81,8 @@ a:active {
 
 .projectSection{
   display: flex;
-  margin: 25px;
+  margin: 30px;
+  align-items: center;
 }
 
 .projectInfo{
@@ -89,8 +90,18 @@ a:active {
 }
 
 .projectPic{
-  max-height: 200px;
+  max-height: 300px;
   width: auto;
+}
+
+.projects h2{
+  margin: 25px;
+  font-size: 24pt;
+  text-align: center;
+}
+
+.description{
+  font-style: italic;
 }
 
 /* img {
@@ -113,12 +124,31 @@ a:active {
   align-items: center;
 }
 
-
 .school{
   margin: 20px;
+  width: 30%;
+}
+.professional{
+  margin: 25px;
+  display: flex;
+  border: solid;
+  border-color: var(--ColorGreen);
+  border-radius: 10%;
+  align-items: center;
 }
 
-/* .d-block{
-  max-height: 800px;
-  
-} */
+.workInfo{
+  margin: 20px;
+  /* width: 30%; */
+}
+
+.company{
+  font-weight: bold;
+  font-size: 16pt;
+  margin: 5px;
+}
+
+.job{
+  font-style: italic;
+  margin: 0;
+}

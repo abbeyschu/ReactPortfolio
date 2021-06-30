@@ -13,7 +13,7 @@ function Navbar() {
             <Link to="/" className={window.location.pathname === "/" || window.location.pathname === "/about" ? "nav-link active" : "nav-link"}>About</Link>
           </li>
           <li className="menu-item">
-            <Link to="/education" className={window.location.pathname === "/education" ? "nav-link active" : "nav-link"}>Education</Link>
+            <Link to="/education" className={window.location.pathname === "/education" ? "nav-link active" : "nav-link"}>Resume</Link>
           </li>
           <li className="menu-item">
             <Link to="/projects" className={window.location.pathname === "/projects" ? "nav-link active" : "nav-link"}>Work</Link>

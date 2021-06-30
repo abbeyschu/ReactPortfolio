@@ -81,15 +81,6 @@ let myinfo = {
         "githubLink" : "https://github.com/abbeyschu/EmployeeDirectory",
         "deployed": "https://abbeyschu.github.io/EmployeeDirectory/",
         },
-        {
-        "id": "6",
-        "title": "title six",
-        "description": "description six",
-        "image": "/images/projectSix.png", 
-        "alt": "screenshot",       
-        "githubLink" : "githublink",
-        "deployed": "deployedlink",
-        },
     ],
 
 }
