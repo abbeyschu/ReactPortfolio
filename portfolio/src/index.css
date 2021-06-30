@@ -81,6 +81,11 @@ a:active {
 
 .projectSection{
   display: flex;
+  margin: 25px;
+}
+
+.projectInfo{
+  margin: 20px;
 }
 
 .projectPic{
@@ -108,3 +113,8 @@ a:active {
 .school{
   margin: 20px;
 }
+
+/* .d-block{
+  max-height: 800px;
+  
+} */
