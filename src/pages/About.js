@@ -1,10 +1,10 @@
 import React from "react";
 import myinfo from "../myinfo";
 import Carousel from 'react-bootstrap/Carousel';
-import travel1 from "/images/travel1.jpg";
-import travel2 from "/images/travel2.jpg";
-import travel3 from "/images/travel3.jpg";
-import travel4 from "/images/travel4.jpg";
+// import travel1 from "/images/travel1.jpg";
+// import travel2 from "/images/travel2.jpg";
+// import travel3 from "/images/travel3.jpg";
+// import travel4 from "/images/travel4.jpg";
 
 function About() {
   return (
