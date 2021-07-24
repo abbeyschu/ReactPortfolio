@@ -1,0 +1,16 @@
+.menu{
+  display: flex;
+}
+
+.menu-options{
+  display: flex;
+  list-style: none;
+  margin-right: 25px;
+}
+
+.menu-item{
+  font-size: 14pt;
+  text-decoration: underline;
+  display: inline-block;
+  margin-left: 25px;
+}
