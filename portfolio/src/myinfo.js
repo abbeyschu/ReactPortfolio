@@ -74,12 +74,12 @@ let myinfo = {
         },
         {
         "id": "5",
-        "title": "Employee Directory",
-        "description": "Search for an employee or sort by name",
-        "image": "/images/EmployeeDirectory.png",
-        "alt": "Employee Directory Screenshot",
-        "githubLink" : "https://github.com/abbeyschu/EmployeeDirectory",
-        "deployed": "https://abbeyschu.github.io/EmployeeDirectory/",
+        "title": "Cinephile",
+        "description": "Search for movies and signup for events to meet other cinephiles",
+        "image": "/images/cinephile.png",
+        "alt": "Cinephile events screenshot",
+        "githubLink" : "https://github.com/UW-Bootcamp-Project-3/Cinephile-Project-3",
+        "deployed": "https://cinephiles1.herokuapp.com/",
         },
     ],
 
