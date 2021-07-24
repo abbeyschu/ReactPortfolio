@@ -1,7 +1,10 @@
 import React from "react";
 import myinfo from "../myinfo";
 import Carousel from 'react-bootstrap/Carousel';
-
+import travel1 from "/images/travel1.jpg";
+import travel2 from "/images/travel2.jpg";
+import travel3 from "/images/travel3.jpg";
+import travel4 from "/images/travel4.jpg";
 
 function About() {
   return (
@@ -14,28 +17,28 @@ function About() {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="/images/travel1.jpg"
+      src="/ReactPortfolio/images/travel1.jpg"
       alt="First slide"
     />
   </Carousel.Item>
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="/images/travel2.jpg"
+      src="/ReactPortfolio/images/travel2.jpg"
       alt="Second slide"
     />
   </Carousel.Item>
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="/images/travel3.jpg"
+      src="/ReactPortfolio/images/travel3.jpg"
       alt="Third slide"
     />
   </Carousel.Item>
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="/images/travel4.jpg"
+      src="/ReactPortfolio/images/travel4.jpg"
       alt="Third slide"
     />
   </Carousel.Item>

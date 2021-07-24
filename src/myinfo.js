@@ -1,10 +1,10 @@
 let myinfo = {
     "name": "Abbey Schueller",
     "location": "Seattle, WA",
-    "imageOne":"/images/travel1.jpg",
-    "imageTwo":"/images/travel2.jpg",
-    "imageThree":"/images/travel3.jpg",
-    "imageFour":"/images/travel4.jpg",
+    "imageOne":"/ReactPortfolio/images/travel1.jpg",
+    "imageTwo":"/ReactPortfolio/images/travel2.jpg",
+    "imageThree":"/ReactPortfolio/images/travel3.jpg",
+    "imageFour":"/ReactPortfolio/images/travel4.jpg",
     "educationOne": [
       {
         "university": "University of Wisconsin-Madison",
