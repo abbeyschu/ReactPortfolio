@@ -9,7 +9,7 @@ Visit this link to view my portfolio page: https://abbeyschu.github.io/ReactPort
 
 ## Screenshot of Portfolio
 
-![Image of Portfolio Page](assets/Images/PortfolioScreenshot.png)
+![Video of Portfolio Page](./ReactApp.gif)
 
 
 ## License 
